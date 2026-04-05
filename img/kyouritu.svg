@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 320">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .25px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #787878;
+      }
+
+      .cls-4 {
+        font-family: YuMincho-Regular, 'Yu Mincho';
+        font-size: 7.92px;
+      }
+
+      .cls-3 {
+        stroke-width: .7px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="120" y="83.56" width="130" height="134.83"/>
+  <text class="cls-4" transform="translate(195.26 114.24) rotate(18.78)"><tspan x="0" y="0">K</tspan></text>
+  <text class="cls-4" transform="translate(200.25 115.96) rotate(25.07)"><tspan x="0" y="0">y</tspan></text>
+  <text class="cls-4" transform="translate(203.64 117.53) rotate(30.68)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-4" transform="translate(207.16 119.61) rotate(36.66)"><tspan x="0" y="0">u</tspan></text>
+  <text class="cls-4" transform="translate(210.63 122.22) rotate(41.84)"><tspan x="0" y="0">r</tspan></text>
+  <text class="cls-4" transform="translate(212.85 124.23) rotate(45.51)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-4" transform="translate(214.38 125.77) rotate(48.93)"><tspan x="0" y="0">t</tspan></text>
+  <text class="cls-4" transform="translate(216.13 127.75) rotate(53.34)"><tspan x="0" y="0">z</tspan></text>
+  <text class="cls-4" transform="translate(218.26 130.64) rotate(57.29)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-4" transform="translate(219.35 132.24) rotate(61.79)"><tspan x="0" y="0">p</tspan></text>
+  <text class="cls-4" transform="translate(221.42 136.09) rotate(68.04)"><tspan x="0" y="0">h</tspan></text>
+  <text class="cls-4" transform="translate(223.03 140.08) rotate(74.06)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-4" transform="translate(224.14 144.07) rotate(78.93)"><tspan x="0" y="0">t</tspan></text>
+  <text class="cls-4" transform="translate(224.68 146.64) rotate(83.75)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-4" transform="translate(225.11 150.71) rotate(88.82)"><tspan x="0" y="0">s</tspan></text>
+  <text class="cls-4" transform="translate(225.17 153.87) rotate(92.9)"><tspan x="0" y="0">t</tspan></text>
+  <text class="cls-4" transform="translate(225.08 156.48) rotate(97.83)"><tspan x="0" y="0">u</tspan></text>
+  <text class="cls-4" transform="translate(224.5 160.78) rotate(104.03)"><tspan x="0" y="0">d</tspan></text>
+  <text class="cls-4" transform="translate(223.41 164.97) rotate(108.7)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-4" transform="translate(222.76 167.02) rotate(113.19)"><tspan x="0" y="0">o</tspan></text>
+  <path class="cls-3" d="M161.72,185.89c-10.21-7.28-16.87-19.22-16.87-32.72,0-13.5,6.66-25.44,16.87-32.72v65.43Z"/>
+  <path class="cls-3" d="M174.03,191.81c3.49.99,7.17,1.52,10.97,1.52,22.18,0,40.15-17.98,40.15-40.15s-17.98-40.15-40.15-40.15c-3.8,0-7.48.53-10.97,1.52v77.27Z"/>
+  <line class="cls-3" x1="210.95" y1="122.92" x2="178.96" y2="151.97"/>
+  <line class="cls-3" x1="186.64" y1="152.08" x2="211.81" y2="183.06"/>
+  <path d="M154.88,99.07c-6.58.33-13.45.36-20.06.4,0,0,.4-.4.4-.4-.04,6.47-.08,12.93-.4,19.39-.33-6.6-.35-13.19-.4-19.79,6.74.04,13.74.07,20.46.4h0Z"/>
+  <path d="M215.12,200.8c6.58-.33,13.45-.36,20.06-.4,0,0-.4.4-.4.4.04-6.47.08-12.93.4-19.39.33,6.6.35,13.19.4,19.79-6.74-.04-13.74-.07-20.46-.4h0Z"/>
+  <g>
+    <path d="M153.94,112.93c-4.25.9-4.86,1.62-5.61,6.7-.75-5.08-1.36-5.81-5.61-6.7,4.25-.9,4.86-1.62,5.61-6.7.75,5.08,1.36,5.81,5.61,6.7Z"/>
+    <path class="cls-1" d="M153.94,112.93c-4.25.9-4.86,1.62-5.61,6.7-.75-5.08-1.36-5.81-5.61-6.7,4.25-.9,4.86-1.62,5.61-6.7.75,5.08,1.36,5.81,5.61,6.7Z"/>
+  </g>
+</svg>

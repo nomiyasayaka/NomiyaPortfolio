@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* 全体のコンテナ（中央寄せ） */
+.works-detail-container {
+  max-width: 1100px;
+  margin: 0 auto 100px;
+  padding: 0 5%;
+}
+
+/* 横並びの指定 */
+.works-detail-flex {
+  display: flex;
+  gap: 50px; /* 画像とテキストの間隔 */
+  align-items: flex-start;
+}
+
+/* 左側：画像（60%くらいの幅） */
+.detail-left {
+  flex: 1.5;
+}
+
+/* 右側：テキスト（40%くらいの幅） */
+.detail-right {
+  flex: 1;
+}
+
+/* 各セクションの区切り線 */
+.detail-right section {
+  border-top: 1px solid #ccc; /* 上に線を引く */
+  padding: 20px 0; /* 線の上下に余白を作る */
+}
+
+/* 一番下のセクションの下にも線が欲しい場合 */
+.detail-right section:last-of-type {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* 見出しのデザイン調整 */
+.detail-right h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.detail-right p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* 丸いタグのデザイン（おまけ） */
+.tag-area {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+.tag {
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 3px 15px;
+  font-size: 0.75rem;
+}
+
+.back-to-top {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.btn-back {
+  display: inline-block;
+  color: #333;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #333; /* 下線のみのシンプルデザイン */
+  transition: opacity 0.3s;
+}
+
+.btn-back:hover {
+  opacity: 0.6;
+}
+
+/* スマホ対応：縦並びに戻す */
+@media (max-width: 768px) {
+  .works-detail-flex {
+    flex-direction: column;
+  }
+}

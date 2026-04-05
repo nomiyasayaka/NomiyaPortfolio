@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NomiyaSayaka/Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <h1 class="header-logo">Nomiya Sayaka</h1>
+  
+  <div class="hamburger" id="js-hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="js-nav">
+    <ul>
+      <li class="current"><a href="#">HOME</a></li>
+      <li><a href="#works">WORKS</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+	
+	<main>
+	
+	<div class="main-visual">
+ 
+  <div class="mv-copy">
+    <p class="en">Portfolio 2026</p>
+  </div>
+
+  <div class="moving-dot dot-1"></div>
+  <div class="moving-dot dot-2"></div>
+  <div class="moving-dot dot-3"></div>
+  <div class="moving-dot dot-4"></div>
+  <div class="moving-dot dot-5"></div>
+
+  <div class="scrolldown"><span>SCROLL</span></div>
+</div>
+	
+<section id="works">
+<h2>WORKS</h2>
+<div class="box-area">
+       
+	<div class="box">
+<p><a href="works1.html"><img src="img/lpimg1.png" width="1220" height="814" alt=""/></a></p>
+<h3>WEB</h3>
+<p>自身のポートフォリオサイト</p>
+	</div>
+		
+<div class="box">
+	<p><a href="works2.html"><img src="img/ICHIMURAJURI.png" width="2560" height="1707" alt=""/></a></p>
+    <h3>WEB</h3>
+<p>スタイリスト　Ichimura Juri<br>
+ポートフォリオサイト</p>
+</div>
+
+<div class="box">
+	<p>&nbsp;</p>
+    <h3>&nbsp;</h3>
+</div>
+	
+<div class="box">
+	<p><a href="works4.html"><img src="img/hatalogo.svg" width="1220" height="814" alt=""/></a></p>
+    <h3>LOGO</h3>
+<p>職業訓練校の制作課題<br>
+「畑英会話スクール」チラシロゴ</p>
+</div>
+	
+<div class="box">
+	<p><a href="works5.html"><img src="img/p_logo.png" width="500" height="500" alt=""/></a></p>
+    <h3>LOGO</h3>
+<p>職業訓練校の制作課題<br>
+「元劇団四季オーケストライベント企画」<br>
+イベントロゴ</p>
+</div>
+	
+<div class="box">
+	<p><a href="works6.html"><img src="img/kyouritu.png" width="500" height="500" alt=""/></a></p>
+    <h3>LOGO</h3>
+<p>職業訓練校の制作課題</p>
+<p>ウェディングフォトスタジオのロゴ</p>
+</div>
+	
+<div class="box">
+	<p><a href="works7.html"><img src="img/shampoo.png" width="400" height="400" alt=""/></a></p>
+    <h3>BANNER</h3>
+<p>「新発売シャンプー」の広告バナー</p>
+</div>
+
+<div class="box">
+	<p><a href="works8.html"><img src="img/flower.png" width="400" height="400" alt=""/></a></p>
+    <h3>BANNER</h3>
+<p>「お花の定期便」の告知バナー</p>
+</div>
+	
+<div class="box">
+	<p><a href="works9.html"><img src="img/oseti.png" width="400" height="400" alt=""/></a></p>
+    <h3>BANNER</h3>
+    <p>「おせち特集」ページへ誘導するバナー</p>
+    <p>&nbsp;</p>
+</div>
+
+</div>
+	
+</section>
+		
+ <section id="about">
+      <h2>ABOUT</h2>
+      <div class="about-container">
+        <div class="about-image">
+          <img src="img/me.jpg" alt="Nomiya Sayaka">
+        </div>
+        <div class="about-text">
+          <p class="name-jp">野宮清香</p>
+          <p class="name-en">Nomiya Sayaka</p>
+          <p class="profile">1999年生まれ。バンタンデザイン研究所スタイリスト科卒業。<br>
+          卒業後、ファッションスタイリストアシスタントとしてアーティストや<br>
+          タレントの衣装準備をはじめ裏方業務全般の管理を経験。<br>
+          その後、販売業やピラティストレーナーとしてスタジオの店長を経験。<br>
+          職業訓練校にてWebデザインを学習。</p>
+          <p class="strength">ファッションスタイリストアシスタントとしての徹底した管理能力と<br>
+          品質へのこだわり、そして販売・店長経験で培ったビジネス目標を<br>
+          達成する顧客視点を強みです。<br>
+          これらの経験を活かし、ユーザーに寄り添いつつ、<br>
+          成果に繋がるデザイン制作を目指します。</p>
+        </div>
+      </div>
+    </section>
+
+		 <section id="contact">
+      <h2>CONTACT</h2>
+      <div class="button-01">
+        <a href="https://forms.gle/tJ4Pj95kdrXd1oHR8">お問い合わせはこちら</a>
+      </div>
+    </section>
+  </main>
+
+<footer>
+ <p>&copy;2026 Nomiya Sayaka</p>
+ </footer>
+
+	<a href="#" class="fixed-pagetop" id="js-pagetop">TOP</a>
+
+	<script>
+  // まとめて1つのscript内に記述します
+  const hamburger = document.getElementById('js-hamburger');
+  const nav = document.getElementById('js-nav');
+  const pagetopBtn = document.getElementById('js-pagetop');
+
+  // ハンバーガーメニューの開閉
+  hamburger.addEventListener('click', function () {
+    hamburger.classList.toggle('active');
+    nav.classList.toggle('active');
+  });
+
+  // スクロールでトップボタンを表示
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 300) {
+      pagetopBtn.classList.add('is-show');
+    } else {
+      pagetopBtn.classList.remove('is-show');
+    }
+  });
+</script>
+	
+</body>
+</html>
