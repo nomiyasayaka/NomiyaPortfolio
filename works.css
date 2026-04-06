@@ -81,6 +81,56 @@
   opacity: 0.6;
 }
 
+.link-site-box {
+  margin-top: 30px; /* 画像との間隔 */
+  text-align: left; /* 左揃えが今のデザインには合っていますが、中央なら center */
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #333; /* 例えば黒系 */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: opacity 0.3s;
+}
+
+.btn-primary:hover {
+  opacity: 0.7; /* ホバーした時に少し透けさせると「ボタン感」が出ます */
+}
+
+.post-navigation {
+  margin: 80px 0 40px; /* 上下にゆとりを持たせる */
+  padding-top: 40px;
+  border-top: 1px solid #eee; /* 区切り線を入れるとスッキリします */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between; /* これで左右両端に配置されます */
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+/* 矢印のデザインを少し整える */
+.nav-arrow {
+  display: inline-block;
+  margin: 0 5px;
+  font-family: serif; /* 矢印を少し上品に */
+}
+
 /* スマホ対応：縦並びに戻す */
 @media (max-width: 768px) {
   .works-detail-flex {
